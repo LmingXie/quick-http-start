@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: quick-http-start
+
+api:
+  eth:
+    blockscout:
+      url: https://blockscout.com/
+      proxy:
+        host: 167.99.54.39
+        port: 8888
+    infura:
+      rpcUrl: https://mainnet.infura.io/v3/ed0e4d0e188240e7a0eeb68664f4787e
+      rpcUser:
+      rpcPassword:

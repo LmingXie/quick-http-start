@@ -29,12 +29,12 @@
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
-            <version>3.10.0</version>
+            <version>3.14.9</version>
         </dependency>
         <dependency>
             <groupId>com.squareup.retrofit2</groupId>
             <artifactId>retrofit</artifactId>
-            <version>2.4.0</version>
+            <version>2.7.2</version>
         </dependency>
         <dependency>
             <groupId>com.squareup.retrofit2</groupId>
@@ -42,7 +42,7 @@
             <version>2.4.0</version>
         </dependency>
 
-        <!-- 如果你需要使用JsonRPC调用第三方http接口，请使用如下三个squareup开发依赖 -->
+        <!-- 如果你需要使用JsonRPC调用第三方http接口，jsonrpc4j 开发依赖 -->
         <dependency>
             <groupId>com.github.briandilley.jsonrpc4j</groupId>
             <artifactId>jsonrpc4j</artifactId>
